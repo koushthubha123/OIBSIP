@@ -3,8 +3,6 @@ import java.util.*;
 class Account {
     int balance=  2000;
     int pin = 1234;
-
-
     private int i= 0;
     private final int j= 3;
 
@@ -87,12 +85,9 @@ class Account {
     }
 
 }
-public class ATMMachine
-{
+public class ATM {
     public static void main(String[] args) {
-        Account obj=new Account();
+        Account obj = new Account();
         obj.checkpin();
-
     }
 }
-
